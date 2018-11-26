@@ -42,10 +42,10 @@ $("#frequency").val(sessionStorage.getItem("freq"));
 $("#submit").on("click", function(event) {
   event.preventDefault();
 
-  if ($("#train-name").val().trim() === "" ||
-    $("#destination").val().trim() === "" ||
-    $("#first-train").val().trim() === "" ||
-    $("#frequency").val().trim() === "") {
+  if( 	$("#train-name").val().trim() === "" ||
+    	$("#destination").val().trim() === "" ||
+    	$("#first-train").val().trim() === "" ||
+    	$("#frequency").val().trim() === "") {
 
     alert("Please fill in all details to add new train");
 

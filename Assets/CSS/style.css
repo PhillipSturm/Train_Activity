@@ -1,0 +1,25 @@
+body {
+    background-image: url(../Images/chi-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  #heading {
+    font-family: Times;
+    font-weight: bold;
+  }
+  
+  #subHeading {
+    font-family: Times;
+    font-style: italic;
+  }
+  
+  .panel-title {
+    font-weight: bold;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
