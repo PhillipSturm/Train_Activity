@@ -42,7 +42,7 @@ $("#frequency").val(sessionStorage.getItem("freq"));
 $("#submit").on("click", function(event) {
   event.preventDefault();
 
-  if( 	$("#train-name").val().trim() === "" ||
+  if( $("#train-name").val().trim() === "" ||
     	$("#destination").val().trim() === "" ||
     	$("#first-train").val().trim() === "" ||
     	$("#frequency").val().trim() === "") {
@@ -102,7 +102,3 @@ $(document).on("click", ".arrival", function() {
 });
 
 currentTime();
-
-setInterval(function() {
-  window.location.reload();
-}, 60000);
