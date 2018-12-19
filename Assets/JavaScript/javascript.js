@@ -36,9 +36,7 @@ $("#add-train-btn").on("click", function(event) {
   $("#destination-input").val("");
   $("#frequency-input").val("");
 });
-
-var currentTime = moment().format('LT');
-
+// Need to capture the current time and calculate the frequency but couldn't remember how to do that // 
 
 // Create Firebase event for adding train to the database and a row in the html when a user adds an entry
 database.ref().on("child_added", function(childSnapshot) {
